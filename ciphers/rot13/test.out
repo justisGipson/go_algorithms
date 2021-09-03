@@ -1,0 +1,30 @@
+=== RUN   TestRot13Encrypt
+=== RUN   TestRot13Encrypt/Basic_rotation_with_letter_'a'_gives_'n
+=== RUN   TestRot13Encrypt/Rotation_with_wrapping_around_alphabet_on_letter_'z'_gives_'m'
+=== RUN   TestRot13Encrypt/Rotation_on_'hello_world'
+=== RUN   TestRot13Encrypt/Rotation_on_the_rotation_of_'hello_world'_gives_'hello_world'_back
+=== RUN   TestRot13Encrypt/Full_sentence_rotation
+=== RUN   TestRot13Encrypt/Sentence_from_Rot13.go_main_function
+--- PASS: TestRot13Encrypt (0.00s)
+    --- PASS: TestRot13Encrypt/Basic_rotation_with_letter_'a'_gives_'n (0.00s)
+    --- PASS: TestRot13Encrypt/Rotation_with_wrapping_around_alphabet_on_letter_'z'_gives_'m' (0.00s)
+    --- PASS: TestRot13Encrypt/Rotation_on_'hello_world' (0.00s)
+    --- PASS: TestRot13Encrypt/Rotation_on_the_rotation_of_'hello_world'_gives_'hello_world'_back (0.00s)
+    --- PASS: TestRot13Encrypt/Full_sentence_rotation (0.00s)
+    --- PASS: TestRot13Encrypt/Sentence_from_Rot13.go_main_function (0.00s)
+=== RUN   TestRot13Decrypt
+=== RUN   TestRot13Decrypt/Basic_rotation_with_letter_'a'_gives_'n
+=== RUN   TestRot13Decrypt/Rotation_with_wrapping_around_alphabet_on_letter_'z'_gives_'m'
+=== RUN   TestRot13Decrypt/Rotation_on_'hello_world'
+=== RUN   TestRot13Decrypt/Rotation_on_the_rotation_of_'hello_world'_gives_'hello_world'_back
+=== RUN   TestRot13Decrypt/Full_sentence_rotation
+=== RUN   TestRot13Decrypt/Sentence_from_Rot13.go_main_function
+--- PASS: TestRot13Decrypt (0.00s)
+    --- PASS: TestRot13Decrypt/Basic_rotation_with_letter_'a'_gives_'n (0.00s)
+    --- PASS: TestRot13Decrypt/Rotation_with_wrapping_around_alphabet_on_letter_'z'_gives_'m' (0.00s)
+    --- PASS: TestRot13Decrypt/Rotation_on_'hello_world' (0.00s)
+    --- PASS: TestRot13Decrypt/Rotation_on_the_rotation_of_'hello_world'_gives_'hello_world'_back (0.00s)
+    --- PASS: TestRot13Decrypt/Full_sentence_rotation (0.00s)
+    --- PASS: TestRot13Decrypt/Sentence_from_Rot13.go_main_function (0.00s)
+PASS
+ok  	command-line-arguments	0.092s
