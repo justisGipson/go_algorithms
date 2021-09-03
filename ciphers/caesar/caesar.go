@@ -8,7 +8,7 @@ func Encrypt(input string, key int) string {
 	// updates key, the number which matches to key modulo 26
 	key = (key%26 + 26) % 26
 
-	outputBuffer = []byte{}
+	outputBuffer := []byte{}
 
 	for _, r := range input {
 		newbyte := byte(r)
