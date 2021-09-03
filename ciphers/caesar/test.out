@@ -1,0 +1,38 @@
+=== RUN   TestEncrypt
+=== RUN   TestEncrypt/Basic_caesar_encryption_with_letter_'a'
+=== RUN   TestEncrypt/Basic_caesar_encryption_wrap_around_alphabet_on_letter_'z'
+=== RUN   TestEncrypt/Encrypt_a_simple_string_with_caesar_encryiption
+=== RUN   TestEncrypt/Encrypt_a_simple_string_with_key_13
+=== RUN   TestEncrypt/Encrypt_a_simple_string_with_key_-13
+=== RUN   TestEncrypt/With_key_of_26_output_should_be_the_same_as_the_input
+=== RUN   TestEncrypt/Encrypt_sentence_with_key_10
+=== RUN   TestEncrypt/Encrypt_sentence_with_key_10#01
+--- PASS: TestEncrypt (0.00s)
+    --- PASS: TestEncrypt/Basic_caesar_encryption_with_letter_'a' (0.00s)
+    --- PASS: TestEncrypt/Basic_caesar_encryption_wrap_around_alphabet_on_letter_'z' (0.00s)
+    --- PASS: TestEncrypt/Encrypt_a_simple_string_with_caesar_encryiption (0.00s)
+    --- PASS: TestEncrypt/Encrypt_a_simple_string_with_key_13 (0.00s)
+    --- PASS: TestEncrypt/Encrypt_a_simple_string_with_key_-13 (0.00s)
+    --- PASS: TestEncrypt/With_key_of_26_output_should_be_the_same_as_the_input (0.00s)
+    --- PASS: TestEncrypt/Encrypt_sentence_with_key_10 (0.00s)
+    --- PASS: TestEncrypt/Encrypt_sentence_with_key_10#01 (0.00s)
+=== RUN   TestDecrypt
+=== RUN   TestDecrypt/Basic_caesar_decryption_with_letter_'a'
+=== RUN   TestDecrypt/Basic_caesar_decryption_wrap_around_alphabet_on_letter_'z'
+=== RUN   TestDecrypt/Decrypt_a_simple_string_with_caesar_encryiption
+=== RUN   TestDecrypt/Decrypt_a_simple_string_with_key_13
+=== RUN   TestDecrypt/Decrypt_a_simple_string_with_key_-13
+=== RUN   TestDecrypt/With_key_of_26_output_should_be_the_same_as_the_input
+=== RUN   TestDecrypt/Decrypt_sentence_with_key_10
+--- PASS: TestDecrypt (0.00s)
+    --- PASS: TestDecrypt/Basic_caesar_decryption_with_letter_'a' (0.00s)
+    --- PASS: TestDecrypt/Basic_caesar_decryption_wrap_around_alphabet_on_letter_'z' (0.00s)
+    --- PASS: TestDecrypt/Decrypt_a_simple_string_with_caesar_encryiption (0.00s)
+    --- PASS: TestDecrypt/Decrypt_a_simple_string_with_key_13 (0.00s)
+    --- PASS: TestDecrypt/Decrypt_a_simple_string_with_key_-13 (0.00s)
+    --- PASS: TestDecrypt/With_key_of_26_output_should_be_the_same_as_the_input (0.00s)
+    --- PASS: TestDecrypt/Decrypt_sentence_with_key_10 (0.00s)
+=== RUN   Example
+--- PASS: Example (0.00s)
+PASS
+ok  	command-line-arguments	0.104s
