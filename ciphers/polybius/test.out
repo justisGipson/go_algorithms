@@ -1,0 +1,36 @@
+=== RUN   TestNewPolybius
+=== PAUSE TestNewPolybius
+=== RUN   TestPolybiusEncrypt
+=== PAUSE TestPolybiusEncrypt
+=== RUN   TestPolybiusDecrypt
+=== PAUSE TestPolybiusDecrypt
+=== CONT  TestNewPolybius
+=== CONT  TestPolybiusDecrypt
+=== RUN   TestPolybiusDecrypt/correct_decryption
+=== CONT  TestPolybiusEncrypt
+=== RUN   TestNewPolybius/correct_initialization
+=== RUN   TestPolybiusDecrypt/invalid_decryption(position_of_even_number)
+=== RUN   TestPolybiusEncrypt/correct_encryption
+=== RUN   TestPolybiusDecrypt/invalid_decryption(position_of_odd_number)
+=== RUN   TestPolybiusEncrypt/invalid_encryption
+=== RUN   TestNewPolybius/truncate_characters
+=== RUN   TestPolybiusDecrypt/invalid_text_size_which_is_odd
+=== RUN   TestNewPolybius/invalid_key
+--- PASS: TestPolybiusEncrypt (0.00s)
+    --- PASS: TestPolybiusEncrypt/correct_encryption (0.00s)
+    --- PASS: TestPolybiusEncrypt/invalid_encryption (0.00s)
+=== RUN   TestNewPolybius/invalid_characters
+--- PASS: TestNewPolybius (0.00s)
+    --- PASS: TestNewPolybius/correct_initialization (0.00s)
+    --- PASS: TestNewPolybius/truncate_characters (0.00s)
+    --- PASS: TestNewPolybius/invalid_key (0.00s)
+    --- PASS: TestNewPolybius/invalid_characters (0.00s)
+--- PASS: TestPolybiusDecrypt (0.00s)
+    --- PASS: TestPolybiusDecrypt/correct_decryption (0.00s)
+    --- PASS: TestPolybiusDecrypt/invalid_decryption(position_of_even_number) (0.00s)
+    --- PASS: TestPolybiusDecrypt/invalid_decryption(position_of_odd_number) (0.00s)
+    --- PASS: TestPolybiusDecrypt/invalid_text_size_which_is_odd (0.00s)
+=== RUN   ExampleNewPolybius
+--- PASS: ExampleNewPolybius (0.00s)
+PASS
+ok  	command-line-arguments	0.119s
