@@ -1,0 +1,8 @@
+=== RUN   TestDiffieHellmanKeyExchange
+=== RUN   TestDiffieHellmanKeyExchange/Test_1:_modularExponentiation
+=== RUN   TestDiffieHellmanKeyExchange/Test_2:_Key_Exchange
+--- PASS: TestDiffieHellmanKeyExchange (0.00s)
+    --- PASS: TestDiffieHellmanKeyExchange/Test_1:_modularExponentiation (0.00s)
+    --- PASS: TestDiffieHellmanKeyExchange/Test_2:_Key_Exchange (0.00s)
+PASS
+ok  	command-line-arguments	0.101s
