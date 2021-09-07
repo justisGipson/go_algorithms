@@ -6,16 +6,16 @@ package caesar
 func Encrypt(input string, key int) string {
 	// if key is neg val
 	// updates key, the number which matches to key modulo 26
-	key = (key%26 + 26) % 26
+	var key8 uint8 = byte(key%26+26) % 26
 
 	outputBuffer := []byte{}
-
+	// r is a rune equivalent of uint32
 	for _, r := range input {
 		newbyte := byte(r)
-		if 'A' <= newbyte && newbyte <= 'Z' {
-			outputBuffer = append(outputBuffer, byte(int('A')+int(int(newbyte-'A')+key)%26))
-		} else if 'a' <= newbyte && newbyte <= 'z' {
-			outputBuffer = append(outputBuffer, byte(int('a')+int(int(newbyte-'a')+key)%26))
+		if 'A' <= r && r <= 'Z' {
+			outputBuffer = append(outputBuffer, 'A'+(newbyte-'A'+key8)%26)
+		} else if 'a' <= r && r <= 'z' {
+			outputBuffer = append(outputBuffer, 'a'+(newbyte-'a'+key8)%26)
 		} else {
 			outputBuffer = append(outputBuffer, newbyte)
 		}
