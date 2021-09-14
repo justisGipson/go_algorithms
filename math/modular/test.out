@@ -1,0 +1,14 @@
+=== RUN   TestExponentiation
+=== RUN   TestExponentiation/Test_1
+=== RUN   TestExponentiation/Test_2
+=== RUN   TestExponentiation/Test_3
+=== RUN   TestExponentiation/Test_4
+=== RUN   TestExponentiation/Error_test_1
+--- PASS: TestExponentiation (0.00s)
+    --- PASS: TestExponentiation/Test_1 (0.00s)
+    --- PASS: TestExponentiation/Test_2 (0.00s)
+    --- PASS: TestExponentiation/Test_3 (0.00s)
+    --- PASS: TestExponentiation/Test_4 (0.00s)
+    --- PASS: TestExponentiation/Error_test_1 (0.00s)
+PASS
+ok  	command-line-arguments	0.181s
