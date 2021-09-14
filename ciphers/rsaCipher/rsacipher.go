@@ -14,7 +14,7 @@ package rsa
 import (
 	"errors"
 
-	modular "github.com/TheAlgorithms/Go/math/modular"
+	modular "github.com/justisGipson/go_algorithms/math/modular"
 )
 
 // raised when Encrypt func fails on message
@@ -44,7 +44,7 @@ func Decrypt(encrypted []rune, privExponent, modulus int64) (string, error) {
 	for _, letter := range encrypted {
 		decryptedLetter, err := modular.Exponentiation(int64(letter), privExponent, modulus)
 		if err != nil {
-			return nil, ErrorFailedDecrypt
+			return "", ErrorFailedDecrypt
 		}
 		decrypted = append(decrypted, rune(decryptedLetter))
 	}

@@ -3,9 +3,9 @@ package rsa
 import (
 	"testing"
 
-	"github.com/TheAlgorithms/Go/math/gcd"
-	"github.com/TheAlgorithms/Go/math/lcm"
-	"github.com/TheAlgorithms/Go/math/modular"
+	"github.com/justisGipson/go_algorithms/math/gcd"
+	"github.com/justisGipson/go_algorithms/math/lcm"
+	"github.com/justisGipson/go_algorithms/math/modular"
 )
 
 var rsaTestData = []struct {
