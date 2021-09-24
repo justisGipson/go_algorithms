@@ -1,0 +1,12 @@
+=== RUN   TestNaive
+=== RUN   TestNaive/string_with_multiple_pattern_matches
+=== RUN   TestNaive/string_with_single_pattern_match
+=== RUN   TestNaive/string_with_no_pattern_match
+=== RUN   TestNaive/empty_string
+--- PASS: TestNaive (0.00s)
+    --- PASS: TestNaive/string_with_multiple_pattern_matches (0.00s)
+    --- PASS: TestNaive/string_with_single_pattern_match (0.00s)
+    --- PASS: TestNaive/string_with_no_pattern_match (0.00s)
+    --- PASS: TestNaive/empty_string (0.00s)
+PASS
+ok  	github.com/justisGipson/go_algorithms/strings/search	0.092s
