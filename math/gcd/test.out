@@ -4,3 +4,11 @@
     --- PASS: TestExtended/gcd_of_30_and_50 (0.00s)
 PASS
 ok  	command-line-arguments	0.189s
+=== RUN   TestExtended
+=== RUN   TestExtended/gcd_of_30_and_50
+--- PASS: TestExtended (0.00s)
+    --- PASS: TestExtended/gcd_of_30_and_50 (0.00s)
+PASS
+ok  	command-line-arguments	0.189s
+FAIL	command-line-arguments [build failed]
+FAIL

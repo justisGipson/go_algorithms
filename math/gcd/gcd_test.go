@@ -1,7 +1,5 @@
 package gcd
 
-package gcd
-
 import "testing"
 
 type testFunction func(int64, int64) int64

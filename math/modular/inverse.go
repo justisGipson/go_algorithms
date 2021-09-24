@@ -5,18 +5,18 @@
 // author [Justis](github.com/justisGipson)
 // see inverse_test.go
 
-
 package modular
 
 import (
 	"errors"
-	"github.com/justisGipson/go_alorithms/math/gcd"
+
+	"github.com/justisGipson/go_algorithms/math/gcd"
 )
 
 var ErrorInverse = errors.New("no modular inverse exists")
 
 func Inverse(a, b int64) (int64, error) {
-	gcd, x, + := gcd.Extended(a, b)
+	gcd, x, _ := gcd.Extended(a, b)
 	if gcd != 1 {
 		return 0, ErrorInverse
 	}

@@ -1,0 +1,40 @@
+=== RUN   TestXorCipherEncrypt
+=== RUN   TestXorCipherEncrypt/Encrypt_letter_'a'_with_key_0_makes_no_changes
+=== RUN   TestXorCipherEncrypt/Encrypt_letter_'a'_with_key_1
+=== RUN   TestXorCipherEncrypt/Encrypt_letter_'a'_with_key_10
+=== RUN   TestXorCipherEncrypt/Encrypt_'hello_world'_with_key_0_makes_no_changes
+=== RUN   TestXorCipherEncrypt/Encrypt_'hello_world'_with_key_1
+=== RUN   TestXorCipherEncrypt/Encrypt_'hello_world'_with_key_10
+=== RUN   TestXorCipherEncrypt/Encrypt_full_sentence_with_key_64
+=== RUN   TestXorCipherEncrypt/Encrypt_a_word_with_key_32_make_the_case_swap
+--- PASS: TestXorCipherEncrypt (0.00s)
+    --- PASS: TestXorCipherEncrypt/Encrypt_letter_'a'_with_key_0_makes_no_changes (0.00s)
+    --- PASS: TestXorCipherEncrypt/Encrypt_letter_'a'_with_key_1 (0.00s)
+    --- PASS: TestXorCipherEncrypt/Encrypt_letter_'a'_with_key_10 (0.00s)
+    --- PASS: TestXorCipherEncrypt/Encrypt_'hello_world'_with_key_0_makes_no_changes (0.00s)
+    --- PASS: TestXorCipherEncrypt/Encrypt_'hello_world'_with_key_1 (0.00s)
+    --- PASS: TestXorCipherEncrypt/Encrypt_'hello_world'_with_key_10 (0.00s)
+    --- PASS: TestXorCipherEncrypt/Encrypt_full_sentence_with_key_64 (0.00s)
+    --- PASS: TestXorCipherEncrypt/Encrypt_a_word_with_key_32_make_the_case_swap (0.00s)
+=== RUN   TestXorCipherDecrypt
+=== RUN   TestXorCipherDecrypt/Encrypt_letter_'a'_with_key_0_makes_no_changes
+=== RUN   TestXorCipherDecrypt/Encrypt_letter_'a'_with_key_1
+=== RUN   TestXorCipherDecrypt/Encrypt_letter_'a'_with_key_10
+=== RUN   TestXorCipherDecrypt/Encrypt_'hello_world'_with_key_0_makes_no_changes
+=== RUN   TestXorCipherDecrypt/Encrypt_'hello_world'_with_key_1
+=== RUN   TestXorCipherDecrypt/Encrypt_'hello_world'_with_key_10
+=== RUN   TestXorCipherDecrypt/Encrypt_full_sentence_with_key_64
+=== RUN   TestXorCipherDecrypt/Encrypt_a_word_with_key_32_make_the_case_swap
+--- PASS: TestXorCipherDecrypt (0.00s)
+    --- PASS: TestXorCipherDecrypt/Encrypt_letter_'a'_with_key_0_makes_no_changes (0.00s)
+    --- PASS: TestXorCipherDecrypt/Encrypt_letter_'a'_with_key_1 (0.00s)
+    --- PASS: TestXorCipherDecrypt/Encrypt_letter_'a'_with_key_10 (0.00s)
+    --- PASS: TestXorCipherDecrypt/Encrypt_'hello_world'_with_key_0_makes_no_changes (0.00s)
+    --- PASS: TestXorCipherDecrypt/Encrypt_'hello_world'_with_key_1 (0.00s)
+    --- PASS: TestXorCipherDecrypt/Encrypt_'hello_world'_with_key_10 (0.00s)
+    --- PASS: TestXorCipherDecrypt/Encrypt_full_sentence_with_key_64 (0.00s)
+    --- PASS: TestXorCipherDecrypt/Encrypt_a_word_with_key_32_make_the_case_swap (0.00s)
+=== RUN   Example
+--- PASS: Example (0.00s)
+PASS
+ok  	command-line-arguments	0.177s

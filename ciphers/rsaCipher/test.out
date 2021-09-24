@@ -1,0 +1,12 @@
+=== RUN   TestEncryptDecrypt
+=== RUN   TestEncryptDecrypt/Encrypt_letter_'a'
+=== RUN   TestEncryptDecrypt/Encrypt_'hello_world'
+=== RUN   TestEncryptDecrypt/Encrypt_full_sentence
+=== RUN   TestEncryptDecrypt/Encrypt_full_sentence_from_rsacipher.go_main_function
+--- PASS: TestEncryptDecrypt (0.00s)
+    --- PASS: TestEncryptDecrypt/Encrypt_letter_'a' (0.00s)
+    --- PASS: TestEncryptDecrypt/Encrypt_'hello_world' (0.00s)
+    --- PASS: TestEncryptDecrypt/Encrypt_full_sentence (0.00s)
+    --- PASS: TestEncryptDecrypt/Encrypt_full_sentence_from_rsacipher.go_main_function (0.00s)
+PASS
+ok  	command-line-arguments	0.093s
